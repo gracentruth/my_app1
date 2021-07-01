@@ -30,6 +30,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void onCountClick(View view){
        count++;
+       /* 텍스트 읽어와주
+       int count=Integer.parseInt(textView.getText().toString());
+        */
+
        textView.setText(count+""); //TextView 클래스에는 기본적으로 setter, getter가 선언되어있다.
 
 
