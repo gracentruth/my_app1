@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <Button
+        android:onClick="onToastClick"
+        android:id="@+id/btnToast"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:text="TOAST"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:onClick="onCountClick"
+        android:id="@+id/btnCount"
+        android:layout_width="0dp"
+        android:layout_height="62dp"
+        android:text="COUNT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="200sp"
+        android:gravity="center"
+        android:id="@+id/txtCount"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#FFEB3B"
+        android:text="0"
+        app:layout_constraintBottom_toTopOf="@+id/btnCount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnToast" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
