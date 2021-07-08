@@ -11,4 +11,4 @@
 <img src="https://user-images.githubusercontent.com/63465350/124950830-bba21f80-e04d-11eb-9b77-11e1631378b5.png" width="200">
 
 ### LAB2. 음료주문앱
-<img src="https://user-images.githubusercontent.com/63465350/124889300-ea9aa000-e011-11eb-8602-4ed49b45c293.png" width="300">
+<img src="https://user-images.githubusercontent.com/63465350/124889300-ea9aa000-e011-11eb-8602-4ed49b45c293.png" width="200">
